@@ -1,0 +1,198 @@
+/* Header */
+
+#logo-img{
+  margin-top: 50px;
+}
+
+/* Navigation */
+
+.nav {
+  background-color: #000000;
+  height: 100px;
+  width: auto;
+}
+
+/*Page */
+
+.presentation {
+  padding-top: 70px;
+  text-align: center;
+  color: #C11515;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+hr {
+  width: 18%;
+  background-color: #000000;
+}
+
+.text_present {
+  width: 75%;
+  margin: 0 auto;
+  height: 20%;
+  margin-top: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.slideshow-container img {
+  height: 330px;
+  width: 800px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* Pointeur Souris */
+
+* {
+  cursor: url("img/logo_simplon_min.png"), poiter;
+}
+
+/* Vidéo */
+
+iframe {
+  margin-left: 400px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 900px)
+{
+  iframe
+{
+max-width: 100%;
+}
+}
+
+/*  Footer   */
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  padding: 10px;
+  bottom: 0;
+}
+
+.lien-simplon {
+  font-weight: 500;
+  position: absolute;
+  left: 22%;
+  padding-top: 15px;
+}
+
+.lien-simplon:hover,  {
+  color: #C11515;
+}
+
+
+.logo-scm {
+  text-align: center;
+  background-color: white;
+}
+
+
+.bloc-footer-droit {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  font-weight: 300;
+}
+
+.bloc-footer-droit:hover {
+  color: #C11515;
+}
